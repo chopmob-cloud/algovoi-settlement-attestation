@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "algovoi-settlement-attestation"
-version = "0.1.0"
+version = "0.1.1"
 description = "AlgoVoi settlement attestation format reference implementation -- multi-chain categorical attestation under urn:x402:canonicalisation:jcs-rfc8785-v1, companion to algovoi-substrate compliance and refund receipts"
 readme = "README.md"
 requires-python = ">=3.10"
