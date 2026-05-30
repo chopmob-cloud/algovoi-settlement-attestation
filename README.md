@@ -154,6 +154,17 @@ The pin is the load-bearing primitive for the [Substrate Adopters Registry](http
 
 AlgoVoi is recorded in the [Substrate Adopters Registry](https://docs.algovoi.co.uk/adopters) as the substrate author (v1 and v2). Parties anchoring their own services or specifications to `canon_version: jcs-rfc8785-v1` are recorded in the registry via the [submission process](https://docs.algovoi.co.uk/adopters#how-to-submit-an-adoption-entry). AlgoVoi validates submissions against the artefact's canonical bytes and adds qualifying entries.
 
+## Tests
+
+```bash
+# Python (10 tests)
+pip install -e python/[dev]
+python -m pytest python/tests/ -v
+
+# TypeScript (10 tests)
+cd typescript && npm install && npm test
+```
+
 ## Licence
 
 Apache 2.0.
